@@ -28,6 +28,7 @@ body {
 /* Leaflet map styles */
 .leaflet-container {
   font-family: inherit;
+  z-index: 1;
 }
 
 .leaflet-popup-content-wrapper {
@@ -37,4 +38,13 @@ body {
 .custom-annotation-marker {
   background: transparent;
   border: none;
+}
+
+/* Ensure map container doesn't interfere with overlays */
+.leaflet-map-pane {
+  z-index: 1;
+}
+
+.leaflet-control-container {
+  z-index: 100;
 }

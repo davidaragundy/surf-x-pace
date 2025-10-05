@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NASA Space Explorer | Interactive Earth Observation Platform",
+  title: "SurfXpace | Interactive Earth Observation Platform",
   description:
     "Explore Earth and space through NASA's eyes. Interactive platform for browsing massive satellite imagery datasets from GIBS, with time-based exploration, layer comparison, and feature annotation tools.",
 };

@@ -176,9 +176,9 @@ export default function NASAMap({
   }, [annotations]);
 
   return (
-    <div className="relative w-full h-full">
-      <div ref={mapContainer} className="w-full h-full" />
-      <div className="absolute bottom-4 left-4 bg-white/90 dark:bg-gray-950/90 px-3 py-2 rounded-lg shadow-lg text-xs backdrop-blur-sm">
+    <div className="relative w-full h-full z-0">
+      <div ref={mapContainer} className="w-full h-full z-0" />
+      <div className="absolute bottom-4 left-4 bg-white/90 dark:bg-gray-950/90 px-3 py-2 rounded-lg shadow-lg text-xs backdrop-blur-sm z-10">
         <div className="font-semibold">{selectedLayer.name}</div>
         <div className="text-gray-600 dark:text-gray-400">
           {selectedDate.toLocaleDateString("en-US", {

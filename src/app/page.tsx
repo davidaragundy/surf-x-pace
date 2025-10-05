@@ -225,7 +225,7 @@ export default function Home() {
             <Satellite className="h-8 w-8 text-blue-600" />
             <div>
               <h1 className="text-2xl font-bold text-gray-900 dark:text-gray-50">
-                NASA Space Explorer
+                SurfXpace
               </h1>
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 Explore Earth and Space Through NASA&apos;s Eyes
@@ -241,7 +241,7 @@ export default function Home() {
             </DialogTrigger>
             <DialogContent>
               <DialogHeader>
-                <DialogTitle>NASA Space Explorer</DialogTitle>
+                <DialogTitle>SurfXpace</DialogTitle>
                 <DialogDescription asChild>
                   <div className="space-y-2 mt-4">
                     <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -715,7 +715,7 @@ export default function Home() {
         </aside>
 
         {/* Main Map Area */}
-        <main className="flex-1 relative">
+        <main className="flex-1 relative z-0">
           <NASAMap
             selectedLayer={selectedLayer}
             selectedDate={selectedDate}
