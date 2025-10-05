@@ -1,4 +1,4 @@
-# NASA Space Explorer 🛰️
+# SurfXpace 🛰️
 
 An interactive platform for exploring NASA's massive imagery datasets through the Global Imagery Browse Services (GIBS) API. Built with Next.js 15, React 19, TypeScript, and Leaflet.
 
